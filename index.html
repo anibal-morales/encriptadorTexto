@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+    <title>  
+        Encriptador/Desencriptador de Texto
+    </title>
+</head>
+
+<body>
+    <div id="divLogo">
+        <img src="./img/logoaula.png">
+    </div>
+    <div id="contenedor">
+        <div id="celdaEntrada">
+            <textarea id="areaEncriptar">Ingrese el texto aqui</textarea>
+            <div id="exclamacion">
+                <img src="./img/exclamacion.png">Solo letras minúsculas y sin acentos
+            </div>
+            <div id="divBotones">
+                <button id="botonEncriptar">Encriptar</button>
+                <button id="botonDesencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div id="celdaSalida">
+            <textarea id="areaSalida" readonly>Ningún mensaje fue encontrado</textarea>
+            <div id="divAviso">
+            </div>
+            <button id="botonCopiar">Copiar</button>
+        </div>
+    </div>
+    <div id="rodapie">
+        <h3>Anibal Enrique Morales</h3>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>

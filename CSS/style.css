@@ -1,0 +1,183 @@
+
+#divLogo{
+    width: 100%;
+    left: 30px;
+    top: 30px;
+    display: flex;
+}
+
+
+#contenedor{
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    top: 60px;
+    margin: 5px;
+    border: #0A3871;
+    }
+
+#celdaEntrada{
+    flex:auto;
+    display: flex-wrap;
+    width: 75%;
+    vertical-align: middle;
+    text-align: center;
+    }
+
+#celdaSalida{
+    flex:auto;
+    display: flex-wrap;
+    width: 25%;
+    vertical-align: middle;
+    }
+
+#divBotones{
+    flex:auto;
+    display: flex;
+    vertical-align: middle;
+    }
+
+
+#areaEncriptar{
+    width: 95%;
+    height: 300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    vertical-align: middle;
+   
+    background: #FFFFFF;
+    
+    border-radius: 15px;
+    border-color: #E5E5E5;
+   
+    display: flex;   
+}
+
+#areaSalida{
+    width: 95%;
+    height: 300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    text-align: center;
+
+    background: #FFFFFF;
+
+    border-radius: 15px;
+    border-color: #E5E5E5;
+  
+    vertical-align: middle;
+    display: flex;
+}
+
+#botonEncriptar{
+    width: 45%;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 1%;
+}
+#botonCopiar{
+    width: 100%;
+    height: 67px;
+    left: 0px;
+    margin-top: 27px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#botonDesencriptar{
+    width: 45%;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    margin: 1%;
+}
+
+#exclamacion{
+    width: 100%;
+    height: 20px;
+    left: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    display: flex;
+
+}
+
+#rodapie{
+    font-family: 'Patrick Hand SC', cursive;;
+    font-size: 25px;
+    line-height: 19px;
+    text-align: center;
+    color: lightblue;
+}
+
+@media(max-width: 412px){
+    
+    #contenedor{
+        flex-direction: column;
+    }
+    #celdaEntrada{
+        flex:auto;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+
+    #celdaSalida{
+        flex:auto;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+
+    #areaEncriptar,#areaSalida{
+        height: 150px; 
+    }
+}
